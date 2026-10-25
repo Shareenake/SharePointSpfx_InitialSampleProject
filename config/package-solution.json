@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-projects-client-side-solution",
+    "id": "bf606088-e7ba-445d-a85e-20d01b604b2e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-fx-projects description"
+      },
+      "longDescription": {
+        "default": "sp-fx-projects description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-projects Feature",
+        "description": "The feature that activates elements of the sp-fx-projects solution.",
+        "id": "a980add1-1e62-4edc-9871-1cae7f5e9738",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-projects.sppkg"
+  }
+}
